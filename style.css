@@ -1,5 +1,5 @@
 /*/*
-/* -----------------general css--------------------------------------*/
+/* -----------------general all-pages css--------------------------------------*/
 
 #header {
 	padding: 1.5rem;
@@ -8,11 +8,15 @@
 	margin-left: 6rem;
 	margin-right: 6rem;
 }
-#logo {
-	margin-right: 50px;
-}
 .icon {
 	margin: 5px;
+}
+.navbar-brand {
+	margin-left: 30px;
+}
+.navbar-right {
+	margin-right: auto;
+	margin-left: 0px;
 }
 
 p {
@@ -56,37 +60,9 @@ a[href^="mailto"] { color: #C60000; }
 	margin-left: auto;
 	margin-right: auto;
 }
-
-@media only screen and (max-width: 768px) {
-  	#footer-tagline-container {
-    	margin: 30px;
-    	text-align: center;
-  	}
-  	#footer-text-container {
-		margin-left: 30px;
-		margin-right: 30px;
-		text-align: center;
-	}
-	.footer-socialmedia {
-		position: relative;
-		margin-right: 40px;
-	}
-	#logo {
-		margin-left: 10px;
-	}
-	.navbar-burger {
-		margin-top: 30px;
-		margin-right: 32%;
-	}
-	.header-socialmedia {
-		margin-left: 21%;
-	}
-	.footer-button-container {
-		margin-right: auto;
-		margin-left: auto;
-	}
+#communities {
+	margin-bottom: 50px;
 }
-
 .footer-button {
 	width: 400px;
 	padding: 23px;
@@ -99,11 +75,9 @@ a[href^="mailto"] { color: #C60000; }
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .footer-button-container {
 	width: 200px;
 }
-
 .tagline {
 	font-size: 40px;
 	font-weight: bold;
@@ -122,8 +96,31 @@ a[href^="mailto"] { color: #C60000; }
 	text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  	#footer-tagline-container {
+    	margin: 30px;
+    	text-align: center;
+  	}
+  	#footer-text-container {
+		margin-left: 30px;
+		margin-right: 30px;
+		text-align: center;
+	}
+	.navbar-burger {
+		margin-top: 30px;
+		margin-right: 45%;
+	}
+	.header-socialmedia {
+		visibility: hidden;
+	}
+	.footer-button-container {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
 
-/* -----------------home page css--------------------------------------*/
+
+/* -----------------home page and landing pages css--------------------------------------*/
 	
 #home-image {
 	height: 700px;
@@ -150,50 +147,71 @@ a[href^="mailto"] { color: #C60000; }
 #communities-image0 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/jefferson/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image1 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/315/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image2 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/wabash/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image3 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/2nd/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image4 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/17th/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image5 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/integrity/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image6 {
 	margin: auto;
 	height: 350px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg");
-	background-size: contain;
+	background: url("img/franklin/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 .communities-name-container {
@@ -269,13 +287,8 @@ a[href^="mailto"] { color: #C60000; }
 	margin-right: 15px;
 }
 
-/* -----------------decatur css--------------------------------------*/
+/* -----------------all apartment pages--------------------------------------*/
 
-#decatur-image {
-	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
-	background-size: cover;
-}
 .button1 {
 	width: 300px;
 	padding-top: 20px;
@@ -300,6 +313,87 @@ a[href^="mailto"] { color: #C60000; }
 	font-weight: bold;
 	margin-top: 15px;
 }
+.apartments-section {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+.collapsible {
+  color: #444;
+  cursor: pointer;
+  padding-bottom: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 24px;
+  border-bottom: 3px solid #C60000;
+  font-weight: bold;
+}
+.collapsible-content {
+  padding-left: 10px;
+  padding-top: 20px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  float: right;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.slideshow-container {
+	margin-top: 30px;
+}
+.mySlides {
+	margin-left: auto;
+	margin-right: auto;
+}
+.w3-button-container {
+	margin-top: 20px;
+	width: 330px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.w3-button {
+	width: 150px;
+	height: 50px;
+}
+.w3-display-right {
+	margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+	#collapsible-section {
+		margin-top: 30px;
+	}
+	.apartments-section {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 0px;
+	}
+	.footer-button-container {
+		margin-top: 30px;
+	}
+
+}
+
+/* -----------------decatur css--------------------------------------*/
+
+#decatur-image {
+	height: 700px;
+	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+}
+
 #decatur-floorplan0 {
 	margin: auto;
 	height: 300px;
@@ -328,84 +422,6 @@ a[href^="mailto"] { color: #C60000; }
 	margin: 50px;
 }
 
-/* -----------------all apartment pages--------------------------------------*/
 
-.apartments-section {
-	margin-top: 40px;
-	margin-bottom: 20px;
-	padding-left: 50px;
-}
-
-.collapsible {
-  color: #444;
-  cursor: pointer;
-  padding-bottom: 20px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 24px;
-  border-bottom: 3px solid #C60000;
-  font-weight: bold;
-}
-
-.collapsible-content {
-  padding-left: 10px;
-  padding-top: 20px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-i {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 6px;
-  float: right;
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-
-@media only screen and (max-width: 768px) {
-	#collapsible-section {
-		margin-top: 30px;
-	}
-	.apartments-section {
-	margin-top: 40px;
-	margin-bottom: 20px;
-	padding-left: 0px;
-	}
-	.footer-button-container {
-		margin-top: 30px;
-	}
-
-}
-
-.mySlides {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
-.w3-button-container {
-	margin-top: 20px;
-	width: 330px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.w3-button {
-	width: 150px;
-	height: 50px;
-}
-
-.w3-display-right {
-	margin-left: 15px;
-}
 
 
