@@ -92,9 +92,6 @@ a[href^="mailto"] { color: #C60000; }
 	height: 600px;
 	line-height: 600px;
 }
-.landing-description {
-	text-align: center;
-}
 
 @media only screen and (max-width: 768px) {
   	#footer-tagline-container {
@@ -126,6 +123,7 @@ a[href^="mailto"] { color: #C60000; }
 	height: 700px;
 	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
 	background-size: cover;
+    opacity: 0.9;
 }
 #home-paragraph-container {
 	font-size: 17px;
@@ -144,6 +142,43 @@ a[href^="mailto"] { color: #C60000; }
 	font-size: 30px;
 	font-weight: bold;
 }
+
+#berne-image {
+	height: 700px;
+	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+    opacity: 0.9;
+}
+
+#decatur-image {
+	height: 700px;
+	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+    opacity: 0.9;
+}
+
+#hartfordcity-image {
+	height: 700px;
+	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+    opacity: 0.9;
+}
+
+.berne-map {
+    height: 500px;
+    background: url("./img/all-map.png") top center;
+}
+.decatur-map {
+	height: 400px;
+    background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+}
+.hartfordcity-map {
+	height: 400px;
+    background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background-size: cover;
+}
+
 #communities-image0 {
 	margin: auto;
 	height: 350px;
@@ -151,7 +186,6 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image1 {
@@ -161,7 +195,6 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image2 {
@@ -171,7 +204,6 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image3 {
@@ -181,7 +213,6 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image4 {
@@ -191,17 +222,15 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image5 {
 	margin: auto;
 	height: 350px;
-	background: url("img/integrity/cover.jpg");
+	background: url("img/southpoint/cover.jpg");
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 #communities-image6 {
@@ -211,7 +240,6 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 4px 6px gray;
 	margin: 40px;
 }
 .communities-name-container {
@@ -248,6 +276,12 @@ a[href^="mailto"] { color: #C60000; }
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+.all-map {
+	height: 00px;
+    background: url("./img/all-map.png") top center;
+	background-size: contain;
+}
+
 #form {
 	margin-top: 12px; 
 }
@@ -371,6 +405,10 @@ i {
 	margin-left: 15px;
 }
 
+.gallery-placeholder-image {
+	margin: 50px;
+}
+
 @media only screen and (max-width: 768px) {
 	#collapsible-section {
 		margin-top: 30px;
@@ -385,43 +423,5 @@ i {
 	}
 
 }
-
-/* -----------------decatur css--------------------------------------*/
-
-#decatur-image {
-	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
-	background-size: cover;
-}
-
-#decatur-floorplan0 {
-	margin: auto;
-	height: 300px;
-	max-width: 340px;
-	background: url("https://static1.squarespace.com/static/596f48e8e58c626bb2ebed8e/5a1da907ec212d9bd370e6e9/5a1dc799e4966b134278f348/1537809085493/m2_bayterrace_floorplans-02_720.jpg?format=750w");
-	background-size: contain;
-	margin: 40px;
-}
-#decatur-floorplan1 {
-	margin: auto;
-	height: 300px;
-	max-width: 340px;
-	background: url("https://static1.squarespace.com/static/596f48e8e58c626bb2ebed8e/5a1da907ec212d9bd370e6e9/5a1dc79971c10b644b2cac7c/1537809085488/m2_bayterrace_floorplans-01_720.jpg?format=750w");
-	background-size: contain;
-	margin: 40px;
-}
-#decatur-floorplan2 {
-	margin: auto;
-	height: 300px;
-	max-width: 340px;
-	background: url("https://static1.squarespace.com/static/596f48e8e58c626bb2ebed8e/5a1da907ec212d9bd370e6e9/5a1dc799ec212d9bd378ec9a/1537809085495/m2_bayterrace_floorplans-03_720.jpg?format=750w");
-	background-size: contain;
-	margin: 40px;
-}
-.gallery-placeholder-image {
-	margin: 50px;
-}
-
-
 
 
