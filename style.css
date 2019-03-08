@@ -166,17 +166,19 @@ a[href^="mailto"] { color: #C60000; }
 
 .berne-map {
     height: 500px;
-    background: url("./img/all-map.png") top center;
+    background: url("./img/berne-map.png") top center;
+    margin-bottom: 50px;
 }
 .decatur-map {
 	height: 400px;
-    background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+    background: url("./img/decatur-map.png") top center;
 	background-size: cover;
+    margin-bottom: 50px;
 }
 .hartfordcity-map {
-	height: 400px;
-    background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
-	background-size: cover;
+	height: 500px;
+    background: url("./img/hartfordcity-map.png") top center;
+    margin-bottom: 50px;
 }
 
 #communities-image0 {
@@ -277,9 +279,8 @@ a[href^="mailto"] { color: #C60000; }
 	margin-bottom: 40px;
 }
 .all-map {
-	height: 00px;
+	height: 500px;
     background: url("./img/all-map.png") top center;
-	background-size: contain;
 }
 
 #form {
