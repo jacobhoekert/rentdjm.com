@@ -92,6 +92,12 @@ a[href^="mailto"] { color: #C60000; }
 	height: 600px;
 	line-height: 600px;
 }
+.hidden-text {
+	font-weight: bold;
+    visibility: hidden;
+    font-size: 16px;
+    
+}
 
 @media only screen and (max-width: 768px) {
   	#footer-tagline-container {
@@ -170,13 +176,13 @@ a[href^="mailto"] { color: #C60000; }
     margin-bottom: 50px;
 }
 .decatur-map {
-	height: 400px;
+	height: 500px;
     background: url("./img/decatur-map.png") top center;
-	background-size: cover;
     margin-bottom: 50px;
 }
 .hartfordcity-map {
 	height: 500px;
+    width: 200px;
     background: url("./img/hartfordcity-map.png") top center;
     margin-bottom: 50px;
 }
@@ -309,7 +315,7 @@ a[href^="mailto"] { color: #C60000; }
 	font-weight: bold;
 }
 #send-email-button a {
-	color: #6A6A6A;
+	color: white;
 }
 #send-email-button:hover {
 	background-color: #6A6A6A;
