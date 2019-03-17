@@ -99,29 +99,6 @@ a[href^="mailto"] { color: #C60000; }
     
 }
 
-@media only screen and (max-width: 768px) {
-  	#footer-tagline-container {
-    	margin: 30px;
-    	text-align: center;
-  	}
-  	#footer-text-container {
-		margin-left: 30px;
-		margin-right: 30px;
-		text-align: center;
-	}
-	.navbar-burger {
-		margin-top: 30px;
-		margin-right: 45%;
-	}
-	.header-socialmedia {
-		visibility: hidden;
-	}
-	.footer-button-container {
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
-
 
 /* -----------------home page and landing pages css--------------------------------------*/
 	
@@ -182,7 +159,6 @@ a[href^="mailto"] { color: #C60000; }
 }
 .hartfordcity-map {
 	height: 500px;
-    width: 200px;
     background: url("./img/hartfordcity-map.png") top center;
     margin-bottom: 50px;
 }
@@ -429,6 +405,43 @@ i {
 		margin-top: 30px;
 	}
 
+}
+
+/* general mobile css */
+
+@media only screen and (max-width: 768px) {
+  	#footer-tagline-container {
+    	margin: 30px;
+    	text-align: center;
+  	}
+  	#footer-text-container {
+		margin-left: 30px;
+		margin-right: 30px;
+		text-align: center;
+	}
+    #header {
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .header-socialmedia {
+        display: none;
+    }
+    .navbar-burger {
+		margin-right: 46%;
+	}
+    #home-image {
+        height: 400px;
+    }
+    #info {
+        padding-top: 15px;
+    }
+    #home-tagline-container {
+	   margin: 10px;
+    }
+	.footer-button-container {
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
 
 
