@@ -88,9 +88,9 @@ a[href^="mailto"] { color: #C60000; }
 	font-size: 60px;
 	font-weight: bold;
 	color: white;
+    height: 600px;
+    margin-top: 250px;
 	vertical-align: middle;
-	height: 600px;
-	line-height: 600px;
 }
 .hidden-text {
 	font-weight: bold;
@@ -255,6 +255,7 @@ a[href^="mailto"] { color: #C60000; }
 	height: 700px;
 	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
 	background-size: cover;
+    opacity: 0.9;
 }
 #contact-section {
 	margin-top: 40px;
@@ -407,7 +408,7 @@ i {
 
 }
 
-/* general mobile css */
+/* general, home, and landing pages mobile css */
 
 @media only screen and (max-width: 768px) {
   	#footer-tagline-container {
@@ -427,10 +428,10 @@ i {
         display: none;
     }
     .navbar-burger {
-		margin-right: 46%;
+		margin-right: 44%;
 	}
     #home-image {
-        height: 400px;
+        height: 330px;
     }
     #info {
         padding-top: 15px;
@@ -438,10 +439,30 @@ i {
     #home-tagline-container {
 	   margin: 10px;
     }
+    .big-title {
+        font-size: 45px;
+        height: 300px;
+        margin-top: 50px;
+    }
 	.footer-button-container {
 		margin-right: auto;
 		margin-left: auto;
 	}
+    
+    #berne-image {
+	   height: 330px;
+    }
+
+    #decatur-image {
+	   height: 330px;
+    }
+
+    #hartfordcity-image {
+	   height: 330px;
+    }
+    #contact-us-image {
+        height: 330px;
+    }
 }
 
 

@@ -11,62 +11,61 @@
   </head>
   <body>
 
-     <section id="header" class="section">
-    <div class="level">
-      <div class="level-left">
-        <a href="index.html">
-          <img id="logo" src="img/logo.jpg"
-           height="250px"
-           width="150px">
-        <a/>
-        <div class="navbar-brand">
+    <section id="header" class="section">
+  	<div class="level">
+  		<div class="level-left">
+  			<a href="index.html">
+	  			<img id="logo" src="img/logo.jpg"
+	  			 height="250px"
+	  			 width="150px">
+	  		<a/>
+	  		<nav class="navbar" role="navigation" aria-label="main navigation">
+	  			<div class="navbar-brand">
+				  <a id="burger" role="button" class="navbar-burger burger navbar-right" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="toggleMobileMenu();">
+				      <span aria-hidden="true"></span>
+				      <span aria-hidden="true"></span>
+				      <span aria-hidden="true"></span>
+				  </a>
+				</div>
+				  <div id="menu" class="navbar-menu">
+				    <div class="navbar-start">
+				      <div class="navbar-item has-dropdown is-hoverable">
+				        <a class="navbar-link">
+				          COMMUNITIES
+				        </a>
 
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
+				        <div class="navbar-dropdown">
+				          <a class="navbar-item" href="berne-landing.html">
+				            Berne
+				          </a>
+				          <a class="navbar-item" href="decatur-landing.html">
+				            Decatur
+				          </a>
+				          <a class="navbar-item" href="hartfordcity-landing.html">
+				            Hartford City
+				          </a>
+				        </div>
+				      </div>
 
-        <div id="menu" class="navbar-menu">
-          <div class="navbar-start">
+				      <a class="navbar-item" href="contact-us.html">
+				        CONTACT US
+				      </a>
 
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                COMMUNITIES
-              </a>
-
-              <div class="navbar-dropdown">
-                <a class="navbar-item" href="berne-landing.html">
-                  Berne
-                </a>
-                <a class="navbar-item" href="decatur-landing.html">
-                  Decatur
-                </a>
-                <a class="navbar-item" href="hartfordcity-landing.html">
-                  Hartford City
-                </a>
-              </div>
-            </div>
-
-            <a class="navbar-item" href="contact-us.html">
-              CONTACT US
-            </a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="level-right header-socialmedia">
-        <a class="icon" href="https://www.facebook.com/DJMInvestmentsLLC/" target="_blank">
-            <i class="fab fa-lg fa-facebook-f"></i>
-        </a>
-        <a class="icon" href="https://www.instagram.com/djminvestments/" target="_blank">
-            <i class="fab fa-lg fa-instagram"></i>
-        </a>
-      </div>
-    </div>
+				    </div>
+				  </div>
+			</nav>
+		</div>
+  		<div class="level-right header-socialmedia">
+			<a class="icon" href="https://www.facebook.com/DJMInvestmentsLLC/" target="_blank">
+  				<i class="fab fa-lg fa-facebook-f"></i>
+			</a>
+			<a class="icon" href="https://www.instagram.com/djminvestments/" target="_blank">
+  				<i class="fab fa-lg fa-instagram"></i>
+			</a>
+		</div>
+  	</div>
   </section>
-  
+        
   <section id="berne-image" class="section">
     <div class="columns is-centered">
       <div class="big-title" class="column">
@@ -244,6 +243,25 @@
 
 
     <script>
+        
+      // Menu
+        
+      function toggleMobileMenu() {
+
+	      var menuClasses = document.getElementById("menu").classList;
+	      var burgerClasses = document.getElementById("burger").classList;
+
+	      if (menuClasses.contains("is-active") ) {
+	      	 menuClasses.remove("is-active");
+	     	 burgerClasses.remove("is-active");
+	      }
+	      else {
+	      	 menuClasses.add("is-active");
+	     	 burgerClasses.add("is-active");
+	      }
+
+      }
+      
 
       // Collapsible
 
