@@ -57,16 +57,24 @@ a[href^="mailto"] { color: #C60000; }
 	margin-right: auto;
 }
 .footer-icons {
+	margin-top: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 25px;
+	text-align: center;
+}
+.icon {
+	margin: 15px;
 }
 #communities {
 	margin-bottom: 50px;
 }
 .footer-button {
-	width: 400px;
-	padding: 23px;
-	font-size: 16px;
+	width: 600px;
+	padding: 30px;
+	padding-left: 63px;
+	padding-right: 63px;
+	font-size: 18px;
 	background-color: #BDBDBD;
 	color: white;
 	border-radius: 5px;
@@ -76,7 +84,7 @@ a[href^="mailto"] { color: #C60000; }
 	margin-right: auto;
 }
 .footer-button-container {
-	width: 200px;
+	width: 300px;
 }
 .tagline {
 	font-size: 40px;
@@ -104,12 +112,13 @@ a[href^="mailto"] { color: #C60000; }
 	
 #home-image {
 	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background: url("./img/storytime.jpg") top center;
 	background-size: cover;
     opacity: 0.9;
 }
 #home-paragraph-container {
 	font-size: 17px;
+	text-align: center;
 }
 #home-tagline-container {
 	margin: 60px;
@@ -119,12 +128,20 @@ a[href^="mailto"] { color: #C60000; }
 	color: #C60000;
 	font-weight: bold;
 	text-align: center;
+	line-height: 50px;
 }
 .communities-title-container {
 	text-align: center;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: bold;
+	color: #C60000;
+	margin-bottom: 50px !important;
 }
+
+.community-card{
+	margin-bottom: 50px;
+}
+
 
 #berne-image {
 	height: 700px;
@@ -170,7 +187,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image1 {
 	margin: auto;
@@ -179,7 +196,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image2 {
 	margin: auto;
@@ -188,7 +205,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image3 {
 	margin: auto;
@@ -197,7 +214,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image4 {
 	margin: auto;
@@ -206,7 +223,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image5 {
 	margin: auto;
@@ -215,7 +232,7 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 #communities-image6 {
 	margin: auto;
@@ -224,18 +241,18 @@ a[href^="mailto"] { color: #C60000; }
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-	margin: 40px;
+	margin: 10px;
 }
 .communities-name-container {
 	text-align: center;
 	font-weight: bold;
+	font-size: 25px;
 }
 .communities-address-container {
 	text-align: center;
 }
 .communities-button-container {
 	text-align: center;
-	margin: 10px;
 }
 .communities-button {
 	display: inline-block;
