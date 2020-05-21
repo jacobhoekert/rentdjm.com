@@ -520,7 +520,10 @@ i {
 		 }
     #contact-us-image {
         height: 330px;
-    }
+		}
+		.level {
+			margin: 0px;
+		}
 }
 
 
