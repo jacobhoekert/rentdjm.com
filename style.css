@@ -147,47 +147,53 @@ a[href^="mailto"] { color: #C60000; }
 	height: 700px;
 	background: url("img/jefferson/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 #berne-image2 {
 	height: 700px;
 	background: url("img/yellow-house/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 #berne-image3 {
 	height: 700px;
 	background: url("img/wabash/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 
 #decatur-image1 {
 	height: 700px;
 	background: url("img/2nd/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 
 #decatur-image2 {
 	height: 700px;
 	background: url("img/17th/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 
 #hartfordcity-image1 {
 	height: 700px;
 	background: url("img/the-complex/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
+	overflow: hidden;
 }
 
 #hartfordcity-image2 {
 	height: 700px;
 	background: url("img/franklin/cover.jpg");
 	background-size: cover;
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .berne-map {
