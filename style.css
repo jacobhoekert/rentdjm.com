@@ -143,25 +143,51 @@ a[href^="mailto"] { color: #C60000; }
 }
 
 
-#berne-image {
+#berne-image1 {
 	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background: url("img/jefferson/cover.jpg");
 	background-size: cover;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+#berne-image2 {
+	height: 700px;
+	background: url("img/yellow-house/cover.jpg");
+	background-size: cover;
+    opacity: 0.8;
+}
+#berne-image3 {
+	height: 700px;
+	background: url("img/wabash/cover.jpg");
+	background-size: cover;
+    opacity: 0.8;
 }
 
-#decatur-image {
+#decatur-image1 {
 	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background: url("img/2nd/cover.jpg");
 	background-size: cover;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
-#hartfordcity-image {
+#decatur-image2 {
 	height: 700px;
-	background: url("http://eriefamilycenter.org/wp-content/uploads/2017/08/two.jpg") top center;
+	background: url("img/17th/cover.jpg");
 	background-size: cover;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+#hartfordcity-image1 {
+	height: 700px;
+	background: url("img/the-complex/cover.jpg");
+	background-size: cover;
+    opacity: 0.8;
+}
+
+#hartfordcity-image2 {
+	height: 700px;
+	background: url("img/franklin/cover.jpg");
+	background-size: cover;
+    opacity: 0.8;
 }
 
 .berne-map {
@@ -192,7 +218,7 @@ a[href^="mailto"] { color: #C60000; }
 #communities-image1 {
 	margin: auto;
 	height: 350px;
-	background: url("img/315/cover.jpg");
+	background: url("img/yellow-house/cover.jpg");
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,7 +254,7 @@ a[href^="mailto"] { color: #C60000; }
 #communities-image5 {
 	margin: auto;
 	height: 350px;
-	background: url("img/southpoint/cover.jpg");
+	background: url("img/the-complex/cover.jpg");
 	background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,17 +492,32 @@ i {
 		margin-left: auto;
 	}
     
-    #berne-image {
+    #berne-image1 {
 	   height: 330px;
-    }
+		}
+		
+		#berne-image2 {
+			height: 330px;
+		 }
 
-    #decatur-image {
-	   height: 330px;
-    }
+		 #berne-image3 {
+			height: 330px;
+		 }
 
-    #hartfordcity-image {
+    #decatur-image1 {
 	   height: 330px;
-    }
+		}
+		#decatur-image2 {
+			height: 330px;
+		 }
+
+    #hartfordcity-image1 {
+	   height: 330px;
+		}
+		
+		#hartfordcity-image2 {
+			height: 330px;
+		 }
     #contact-us-image {
         height: 330px;
     }
