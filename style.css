@@ -528,6 +528,9 @@ i {
 			display: block;
 			margin: auto;
 		}
+		.navbar-brand {
+			margin-left: 0px;
+		}
 }
 
 
