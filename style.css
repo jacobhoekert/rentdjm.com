@@ -112,9 +112,10 @@ a[href^="mailto"] { color: #C60000; }
 	
 #home-image {
 	height: 700px;
-	background: url("./img/storytime.jpg") top center;
+	background: url("./img/main.jpg") top center;
 	background-size: cover;
-    opacity: 0.9;
+	opacity: 0.7;
+	overflow: hidden;
 }
 #home-paragraph-container {
 	font-size: 17px;
@@ -194,6 +195,7 @@ a[href^="mailto"] { color: #C60000; }
 	background: url("img/franklin/cover.jpg");
 	background-size: cover;
 	opacity: 0.8;
+	overflow: hidden;
 }
 
 .berne-map {
@@ -480,7 +482,7 @@ i {
 		margin-right: 44%;
 	}
     #home-image {
-        height: 330px;
+      height: 330px;
     }
     #info {
         padding-top: 15px;
