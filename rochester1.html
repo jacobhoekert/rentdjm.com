@@ -8,35 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script type="text/javascript">
-      function radio() {
-        var selectedAns;
-        var questions = document.getElementsByName("myRadios");
-        for(var i = 0; i < questions.length; i++) {
-           if(questions[i].checked == true) {
-             selectedAns = questions[i].value;
-             console.log(selectedAns);
-             break;
-           }
-        }
+  </head>
+  <body>
 
-        if(selectedAns== '1') {
-          document.getElementById("radio-div").innerHTML = "mindi.sprunger@rentdjm.com";
-        }
-        else if (selectedAns=='2') {
-          document.getElementById("radio-div").innerHTML = "mindi.sprunger@rentdjm.com";
-        }
-        else if (selectedAns=='3') {
-          document.getElementById("radio-div").innerHTML = "david.muselman@rentdjm.com";
-        }
-      }
-    
-    </script>
-    </head>
-    <body>
-
- <section id="header" class="section">
-  	<div class="level">
+      <section id="header" class="section">
+      <div class="level">
   		<div class="level-left">
   			<a href="index.html">
 	  			<img id="logo" src="img/logo.jpg"
@@ -110,114 +86,145 @@
 		</div>
   	</div>
   </section>
-     
-    <section id="contact-us-image" class="section">
-      <div class="columns is-centered">
-        <div class="big-title" class="column">
-          Contact Us
-        </div>
+          
+  <section id="rochester-image1" class="section">
+    <div class="columns is-centered">
+      <div class="big-title" class="column">
+        Village Place
       </div>
-    </section>
+    </div>
+  </section>
 
     <section class="section">
-      <div id="contact-section" class="columns is-centered">
-        <div class="column is-3 is-offset-1">
-          <span class="tagline"> Schedule a tour today! </span>
+      <div class="apartments-section columns">
+        <div class="column is-5">
+          <span class="tagline"> Start fresh at Village Place. </span>
           <br>
           <br>
-          <span> 1335 US Highway 27 N </span>
-          <br>
-          <span> Berne, IN 46711 </span>
+          <p>Nestled in the center of Rochester, Indiana, Village Place Apartments is a community offering 3 bedroom, 2 bedroom, and 1 bedroom apartments. This quiet community is located within 1 mile of downtown Rochester with great restaurants, shopping, and things to do. Here, you’ll find newly renovated units that include all appliances and maintenance free living. Contact DJM today to learn more.</p>
           <br>
           <br>
-          <span> 765-429-9447 </span>
+          <a class="button1" href="contact-us.html">SCHEDULE A TOUR</a>
           <br>
-          <address>
-            <a href="mailto:mindi.sprunger@rentdjm.com">mindi.sprunger@rentdjm.com</a>
-            <br>
-            <a href="mailto:david.muselman@rentdjm.com">david.muselman@rentdjm.com</a>
-          </address>
           <br>
-          <h1 class="contact-and-hours">Office Hours</h1>
-            <br>
-            <span>Monday - Friday: 9 a.m. - 5 p.m.</span>
-            <br>
-            <br>
-            <span>Saturday: 9 a.m. - 3 p.m.</span>
-            <br>
-            <br>
-            <span>Sunday: Closed</span>     
+          <br>
+          <a class="button2" href="DJM-Application.doc" download>FILL OUT AN APPLICATION</a>
+
         </div>
-        <div id="form" class="column is-4">
+
+        <div id="collapsible-section"class="column is-5 is-offset-1">
           <div class="columns">
             <div class="column">
-              <div class="field">
-                <label class="label">First Name*</label>
-                <div class="control">
-                  <input id="first-name" class="input" type="text" placeholder="Text input">
-                </div>
+              <div class="collapsible">
+                Amenities
+                <i class="arrow down"></i>
               </div>
-            </div>
-            <div class="column">
-              <div class="field">
-                <label class="label">Last Name*</label>
-                <div class="control">
-                  <input id="last-name" class="input" type="text" placeholder="Text input">
-                </div>
+              <div class="collapsible-content">
+                <p> Patio or Balcony<br />
+                    Air Conditioning<br />
+                    Dishwasher<br />
+                    Refrigerator<br />
+                    Oven/stove<br />
+                    Garbage disposal<br />
+                    Carpet<br />
+                    Ceiling Fan<br />
+                    Window Covering<br />
+                </p>
               </div>
             </div>
           </div>
-          <div class="columns">
+
+        
+            <div class="columns">
             <div class="column">
-              <!-- <div class="field">
-                <label class="label">Email Address*</label>
-                <div class="control has-icons-left has-icons-right">
-                  <input id="address" class="input" type="email" placeholder="Email input">
-                  <span class="icon is-small is-left">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                </div>
-              </div> -->
-              <div id="where">Which community are you interested in?*</div>
-              <form id="radio" name="myRadioForm">
-                <label>
-                  <input type="radio" name="myRadios" value="1" onclick="radio();">
-                  Berne
-                </label>
-                <label>
-                  <input type="radio" name="myRadios" value="2" onclick="radio();">
-                  Decatur
-                </label>
-                <label>
-                  <input type="radio" name="myRadios" value="3" onclick="radio();">
-                  Hartford City
-                </label>
-              </form>
-
-              <label class="label">Message*</label>
-              <textarea id="message" class="textarea"></textarea>
-
-              <button id="send-email-button">
-                <a onclick="javascript:window.location='mailto:'+document.getElementById('radio-div').innerHTML+'?subject=Message from '+document.getElementById('first-name').value+' '+document.getElementById('last-name').value+'&body='+document.getElementById('message').value">SUBMIT</a> 
-              </button>
+              <div class="collapsible">
+                Utilities
+                <i class="arrow down"></i>
+              </div>
+              <div class="collapsible-content">
+                <p> Maintenance free living<br />
+                    DJM pays for mowing<br />
+                    Landscaping<br />
+                    Snow removal<br />
+                    Residence responsible for water and electric and trash<br /> 
+                </p>
+              </div>
             </div>
           </div>
-            
-            <div id="radio-div">
-            </div> 
-            
+
+          <div class="columns">
+            <div class="column">
+              <div class="collapsible">
+                Community Features
+                <i class="arrow down"></i>
+              </div>
+              <div class="collapsible-content">
+                <p> Great location close to downtown Rochester<br />
+                    Quiet<br />
+                    Great neighborhood<br />
+                    On-street parking<br />
+                    Nice parking lot<br /> 
+                    Great restaurants nearby<br /> 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div class="collapsible">
+                Units
+                <i class="arrow down"></i>
+              </div>
+              <div class="collapsible-content">
+                <p> 1 bed, 1 bath<br />
+                    2 bed, 1 bath<br />
+                    3 bed, 1 bath<br />
+                    42 total units
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div id="map" class="column all-map">
-          
-        </div>
-      </div>
       
+
+
     </section>
 
     <div class="myHr">
     </div>
 
-  <section>
+    <section class="section gallery-container">
+      <span class="tagline"> Gallery </span>
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="slideshow-container">
+            <img class="mySlides" src="./img/village-place/exterior0.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/exterior1.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/exterior2.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior0.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior1.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior2.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior3.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior4.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior5.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior6.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior7.jpg" width="700px">
+            <img class="mySlides" src="./img/village-place/interior8.jpg" width="700px">
+          </div>
+          <div class="w3-button-container">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <div class="myHr">
+    </div>
+
+    <section>
     <div id="footer-tagline-container"class="columns">
       <div id="footer-tagline" class="column is-8 is-offset-1">
         Cultivating communities.
@@ -275,7 +282,8 @@
         </div>
       </div>
     </section>
-        
+
+
     <script>
         
       // Menu
@@ -295,7 +303,43 @@
 	      }
 
       }
-        
+
+      // Collapsible
+
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          } 
+        });
+      }
+
+      // Gallery 
+
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        x[slideIndex-1].style.display = "block"; 
+      }
     </script>
 
 

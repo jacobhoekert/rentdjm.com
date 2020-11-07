@@ -143,6 +143,13 @@ a[href^="mailto"] { color: #C60000; }
 	margin-bottom: 50px;
 }
 
+#rochester-image1 {
+	height: 700px;
+	background: url("img/village-place/cover.jpg");
+	background-size: cover;
+	opacity: 0.8;
+	overflow: hidden;
+}
 
 #berne-image1 {
 	height: 700px;
@@ -277,6 +284,17 @@ a[href^="mailto"] { color: #C60000; }
     background-size: cover;
 	margin: 10px;
 }
+#communities-image7 {
+	margin: auto;
+	height: 350px;
+	background: url("img/village-place/cover.jpg");
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin: 10px;
+}
+
+
 .communities-name-container {
 	text-align: center;
 	font-weight: bold;
