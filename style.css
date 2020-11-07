@@ -145,8 +145,9 @@ a[href^="mailto"] { color: #C60000; }
 
 #rochester-image1 {
 	height: 700px;
-	background: url("img/village-place/cover.jpg");
+	background: url("img/village-place/exterior0.jpg");
 	background-size: cover;
+	background-position: center;
 	opacity: 0.8;
 	overflow: hidden;
 }
