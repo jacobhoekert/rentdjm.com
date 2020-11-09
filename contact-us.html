@@ -19,8 +19,10 @@
              break;
            }
         }
-
-        if(selectedAns== '1') {
+        if(selectedAns== '0') {
+          document.getElementById("radio-div").innerHTML = "david.muselman@rentdjm.com";
+        }
+        else if(selectedAns== '1') {
           document.getElementById("radio-div").innerHTML = "mindi.sprunger@rentdjm.com";
         }
         else if (selectedAns=='2') {
@@ -180,6 +182,10 @@
               </div> -->
               <div id="where">Which community are you interested in?*</div>
               <form id="radio" name="myRadioForm">
+                <label>
+                  <input type="radio" name="myRadios" value="0" onclick="radio();">
+                  Rochester
+                </label>
                 <label>
                   <input type="radio" name="myRadios" value="1" onclick="radio();">
                   Berne
