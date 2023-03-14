@@ -8,32 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script type="text/javascript">
-      function radio() {
-        var selectedAns;
-        var questions = document.getElementsByName("myRadios");
-        for(var i = 0; i < questions.length; i++) {
-           if(questions[i].checked == true) {
-             selectedAns = questions[i].value;
-             console.log(selectedAns);
-             break;
-           }
-        }
-        if(selectedAns== '0') {
-          document.getElementById("radio-div").innerHTML = "david.muselman@rentdjm.com";
-        }
-        else if(selectedAns== '1') {
-          document.getElementById("radio-div").innerHTML = "mindi.sprunger@rentdjm.com";
-        }
-        else if (selectedAns=='2') {
-          document.getElementById("radio-div").innerHTML = "mindi.sprunger@rentdjm.com";
-        }
-        else if (selectedAns=='3') {
-          document.getElementById("radio-div").innerHTML = "david.muselman@rentdjm.com";
-        }
-      }
-    
-    </script>
     </head>
     <body>
 
@@ -132,11 +106,9 @@
           <span> Berne, IN 46711 </span>
           <br>
           <br>
-          <span> 260-273-7308 </span>
+          <span> 260-433-0949 </span>
           <br>
           <address>
-            <a href="mailto:mindi.sprunger@rentdjm.com">mindi.sprunger@rentdjm.com</a>
-            <br>
             <a href="mailto:david.muselman@rentdjm.com">david.muselman@rentdjm.com</a>
           </address>
           <br>
@@ -204,7 +176,7 @@
               <textarea id="message" class="textarea"></textarea>
 
               <button id="send-email-button">
-                <a onclick="javascript:window.location='mailto:'+document.getElementById('radio-div').innerHTML+'?subject=Message from '+document.getElementById('first-name').value+' '+document.getElementById('last-name').value+'&body='+document.getElementById('message').value">SUBMIT</a> 
+                <a onclick="javascript:window.location='mailto:david.muselman@rentdjm.com?subject=Message from '+document.getElementById('first-name').value+' '+document.getElementById('last-name').value+'&body='+document.getElementById('message').value">SUBMIT</a> 
               </button>
             </div>
           </div>
@@ -239,11 +211,9 @@
               <span> Berne, IN 46711 </span>
               <br>
               <br>
-              <span> 260-273-7308 </span>
+              <span> 260-433-0949 </span>
               <br>
             <address>
-              <a href="mailto:mindi.sprunger@rentdjm.com">mindi.sprunger@rentdjm.com</a>
-              <br>
               <a href="mailto:david.muselman@rentdjm.com">david.muselman@rentdjm.com</a>
             </address>     
             </div>
